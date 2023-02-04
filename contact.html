@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="center">
+            <div>
+                <img src="./img/marcelo.png"></img>
+            </div>
+            <h1>Marcelo Santos</h1>
+            <h2>Desenvolvedor de Software</h2>
+        </header>
+        <form class="contact-form" action="https://formsubmit.co/marcellinjr02@gmail.com" method="POST">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id ="email" required>
+            <label for="message">Mensagem</label>
+            <input type="text" name="email" id ="message" required>
+            <input type="hidden" name="_next" value="https://http://127.0.0.1:5500/thanks.html">
+            <button type="submit">Send</button>
+            <input type="hidden" name="_next" value="https://github.com/JoseMarceloSuzano/minhaPagina/thanks.html">
+            <input type="hidden" name="_subject" value="New submission!">
+       </form>
+       <footer>
+        <a href="www.linkedin.com/in/jose-marcelo-suzano-dos-santos-junior" target="_blank" rel="noopener noreferrer">
+            <img src="./img/github.svg"></img>
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/jose-marcelo-suzano-dos-santos-junior" target="_blank" rel="noopener noreferrer">
+            <img src="./img/linkedin.svg"></img>
+            <p>Linkedin</p>
+        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5535984022807" target="_blank" rel="noopener noreferrer">
+            <img src="./img/whatsapp.png"></img>
+            <p>Whatsapp</p>
+        </a>
+    </footer>
+    </div>
+</body>
+</html>
